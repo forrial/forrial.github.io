@@ -26,26 +26,24 @@ h1 {
 }
 
 main {
-  margin: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
 }
 
 .block1 {
-  display: flex;
-  float: left;
+  
   width: 25%;
   min-height: 700px;
-  margin-bottom: 20px;
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0 2px 8px;
 }
 
 .block2 {
-  display: flex;
-  float: right;
+  
   width: 68%;
   min-height: 700px;
-  margin-bottom: 20px;
   padding: 20px;
   background-color: #ffffff;
   box-shadow: 0 2px 8px;
@@ -61,12 +59,13 @@ main {
 }
 
 .page-footer {
-  display: flex;
+  
   padding-top: 10px;
   padding-right: 20px;
   padding-bottom: 10px;
   padding-left: 20px;
   background-color: #3b70a0;
   color: #ffffff;
-  justify-content: center;
+  text-align: center;
 }
+
